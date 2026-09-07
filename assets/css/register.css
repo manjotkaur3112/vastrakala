@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: monospace;
+}
+
+
+
+.register {
+    text-align: center;
+    width: 25%;
+    justify-self: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding:50px 50px 0px 50px;
+    position: relative;
+    top: 27px;
+    height: 450px;
+}
+
+.verify-otp{
+    text-align: center;
+    width: 25%;
+    justify-self: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding:40px 50px 0px 50px;
+    position: relative;
+    top: 80px;
+    height: 350px;
+}
+
+.sign-up {
+    text-align: center;
+    width: 25%;
+    justify-self: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding: 30px 50px 0px 50px;
+    position: relative;
+    top: 35px;
+    height: 450px;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.register-option {
+    padding: 25px;
+}
+
+.buttons{
+    margin: 0px !important;
+}
+
+.back{
+    text-decoration: none;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #b52c03;
+    font-size: 20px;
+}
+
+button {
+    margin: 32px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #b52c03;
+    font-size: 18px;
+}
+
+.register-form label {
+    line-height: 50px;
+}
+
+label {
+    line-height: 60px;
+}
+
+input {
+    border-style: groove;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 900px) {
+    .register, .sign-up, .verify-otp{
+        width: 70%;
+        padding: 35px 30px 20px;
+    }
+
+    .logo img{
+        width: 180px;
+        max-width: 80%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .register, .sign-up, .verify-otp{
+        width: calc(100% - 30px);
+        max-width: 500px;
+        height: auto;
+        min-height: 400px;
+        padding: 25px 20px;
+        top: 20px;
+        margin: 0 auto;
+    }
+
+    .verify-otp{
+        min-height: 300px;
+        top: 30px;
+    }
+
+    .register-option{
+        padding: 15px;
+    }
+
+    .register-form{
+        width: 100%;
+    }
+
+    .register-form input{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    label{
+        line-height: 40px;
+    }
+
+    button {
+        margin: 20px 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .register, .sign-up, .verify-otp{
+        width: calc(100% - 20px);
+        padding: 20px 15px;
+    }
+
+    .logo img{
+        width: 140px;
+    }
+
+    .register-option{
+        padding: 10px;
+    }
+
+    .button{
+        font-size: 16px;
+    }
+}

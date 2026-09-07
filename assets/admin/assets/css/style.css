@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: #f5f0e6;
+}
+
+.header {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.main-heading{
+    font-size: 50px;
+}
+
+.profile {
+    width: 20%;
+}
+
+.profile img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+}
+
+section.aside {
+    width: 20%;
+    border-right-style: groove;
+    border-color: #b52c03;
+}
+
+.navigation {
+    padding: 32px;
+    justify-self: center;
+    justify-items: center;
+}
+
+button.tablinks {
+    display: block;
+    list-style: none;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+}
+
+button.tablinks {
+    border: none;
+    background: none;
+}
+
+button.contact{
+    padding: 0 0 21px 0 !important;
+}
+
+.tablinks a{
+    text-decoration:none;
+    color: #76766a;
+}
+
+h2.nav-list-heading {
+    font-size: 32px;
+    padding: 25px 0;
+    color: #b52c03;
+}
+
+.log-out {
+    border-top: groove #b52c03;
+    padding: 21px 0;
+}
+
+section.dashboard {
+    margin: 0 50px;
+    width: 80%;
+}
+
+.search-collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="search"] {
+    width: 30%;
+    padding: 5px 20px;
+    border-color: #b52c03;
+    font-size: 16px;
+}
+
+button#add-item {
+    padding: 10px;
+    background-color: #b52c03;
+    font-size: 18px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th.table-row-heading {
+    border-style: outset;
+    border-color: #b52c03;
+    text-align: center;
+    padding: 10px;
+}
+
+td.table-data {
+    border-style: outset;
+    border-color: #b52c03;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-data button {
+    border: none;
+    background-color: #b52c03;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.pop-up {
+    background-color: white;
+    width: 60%;
+    border-radius: 12px;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.pop-up form{
+    padding: 50px;
+}
+
+h3.adding-user {
+    color: #b52c03;
+    font-size: 27px;
+    padding-bottom: 16px;
+}
+
+.pop-up label {
+    display: block;
+}
+
+.pop-up button {
+    background-color: #b52c03;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 32px;
+}

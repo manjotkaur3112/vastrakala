@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="full-view">
+        <div class="header">
+            <div class="logo">
+                <img src="assets/images/vastrakala-logo.jpg" alt="Vastrakala Logo">
+            </div>
+            <div class="header-middle">
+                <h1 class="main-heading">Dashboard</h1>
+            </div>
+            <div class="profile">
+                <img src="assets/images/vastrakala-logo.jpg" alt="Profile Image">
+            </div>
+        </div>
+
+        <div class="main">
+            <section class="aside">
+                <div class="navigation">
+                    <button class="tablinks"><a href="">Users</a></button>
+                    <button class="tablinks"><a href="">Category</a></button>
+                    <button class="tablinks"><a href="">Collection</a></button>
+                    <button class="tablinks"><a href="">Products</a></button>
+                    <button class="tablinks"><a href="">Wishlist</a></button>
+                    <button class="tablinks bag"><a href="">Bag</a></button>
+                    <button class="tablinks contact"><a href="">Contact Request</a></button>
+                    <div class="log-out">
+                        <button class="tablinks"><a href="">Log Out</a></button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="dashboard">
+                <div class="container users">
+                    <div class="search-collection">
+                        <h2 class="nav-list-heading">Users</h2>
+                        <input type="search" name="" id="" placeholder="Search Collection.....">
+                        <button id="add-item">Add User+</button>
+                    </div>
+                    <div class="create-collection">
+                        <table class="table">
+                        <thead class="table-heading">
+                            <tr class="table-row">
+                                <th class="table-row-heading">ID</th>
+                                <th class="table-row-heading">Name</th>
+                                <th class="table-row-heading">Email</th>
+                                <th class="table-row-heading">Mobile Number</th>
+                                <th class="table-row-heading">Password</th>
+                                <th class="table-row-heading">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <td class="table-data">1</td>
+                            <td class="table-data">Manjot Kaur</td>
+                            <td class="table-data">manjotkaur311205@gmail.com</td>
+                            <td class="table-data">9782100977</td>
+                            <td class="table-data">RabhRakha</td>
+                            <td class="table-data">
+                                <button>View</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </td>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="pop-up">
+                        <form action="" method="post">
+                        <h3 class="adding-user">Add User</h3>
+                            <label for="">
+                                Name: <input type="text">
+                            </label>
+                            <label for="">
+                                Email: <input type="email">
+                            </label>
+                            <label for="">
+                                Number: <input type="number" name="" id="">
+                            </label>
+                            <label for="">
+                                Password: <input type="password" name="" id="">
+                            </label>
+                            <label for="">
+                                Profile Image: <input type="file" src="" alt="">
+                            </label>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="container category">
+                    <div class="search-collection">
+                        <h2 class="nav-list-heading">Categories</h2>
+                        <input type="search" name="" id="" placeholder="Search Collection.....">
+                        <button id="add-item">Add Item+</button>
+                    </div>
+                    <div class="create-collection">
+                        <table class="table">
+                        <thead class="table-heading">
+                            <tr class="table-row">
+                                <th class="table-row-heading">ID</th>
+                                <th class="table-row-heading">Category Name</th>
+                                <th class="table-row-heading">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <td class="table-data">1</td>
+                            <td class="table-data">Manjot Kaur</td>
+                            <td class="table-data">
+                                <button>View</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </td>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="pop-up">
+                        <div class="pop-up-view">
+                            <form action="" method="post">
+                        <h3 class="adding-user">Add Categories</h3>
+                                <label for="">
+                                    Category name: <input type="text">
+                                </label>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container collection">
+                    <div class="search-collection">
+                        <h2 class="nav-list-heading">Collection</h2>
+                        <input type="search" name="" id="" placeholder="Search Collection.....">
+                        <button id="add-item">Add Item+</button>
+                    </div>
+                    <div class="create-collection">
+                        <table class="table">
+                        <thead class="table-heading">
+                            <tr class="table-row">
+                                <th class="table-row-heading">ID</th>
+                                <th class="table-row-heading">Collection Name</th>
+                                <th class="table-row-heading">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <td class="table-data">1</td>
+                            <td class="table-data">Manjot Kaur</td>
+                            <td class="table-data">
+                                <button>View</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </td>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="pop-up">
+                        <div class="pop-up-view">
+                            <form action="" method="post">
+                        <h3 class="adding-user">Add Collections</h3>
+                        <label for="">
+                            Collection Name: <input type="text">
+                        </label>
+                        <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container products">
+                    <div class="search-collection">
+                        <h2 class="nav-list-heading">Products</h2>
+                        <input type="search" name="" id="" placeholder="Search Collection.....">
+                        <button class="add-item" onclick="myFunction">Add Item+</button>
+                    </div>
+                    <div class="create-collection">
+                        <table class="table">
+                        <thead class="table-heading">
+                            <tr class="table-row">
+                                <th class="table-row-heading">ID</th>
+                                <th class="table-row-heading">Product Name</th>
+                                <th class="table-row-heading">Collection Name</th>
+                                <th class="table-row-heading">Category Name</th>
+                                <th class="table-row-heading">Price</th>
+                                <th class="table-row-heading">Images</th>
+                                <th class="table-row-heading">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <td class="table-data">1</td>
+                            <td class="table-data">Manjot Kaur</td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data">
+                                <button>View</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </td>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="pop-up">
+                        <div class="pop-up-view">
+                            <form action="" method="post">
+                        <h3 class="adding-user">Add Products</h3>
+                        <label for="">
+                            Product Name: <input type="text">
+                        </label>
+                        <label for="">
+                            Collection Name: <input type="text">
+                        </label>
+                        <label for="">
+                            Category Name: <input type="text">
+                        </label>
+                        <label for="">
+                            Price: <input type="password" name="" id="">
+                        </label>
+                        <label for="">
+                            Images: <input type="file" src="" alt="">
+                        </label>
+                        <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container wishlist">
+                    <div class="search-collection">
+                        <h2 class="nav-list-heading">Wishlists</h2>
+                        <input type="search" name="" id="" placeholder="Search Collection.....">
+                    </div>
+                    <div class="create-collection">
+                        <table class="table">
+                        <thead class="table-heading">
+                            <tr class="table-row">
+                                <th class="table-row-heading">ID</th>
+                                <th class="table-row-heading">Product Name</th>
+                                <th class="table-row-heading">Collection Name</th>
+                                <th class="table-row-heading">Category Name</th>
+                                <th class="table-row-heading">Price</th>
+                                <th class="table-row-heading">Images</th>
+                                <th class="table-row-heading">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <td class="table-data">1</td>
+                            <td class="table-data">Manjot Kaur</td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data">
+                                <button>View</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </td>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="pop-up">
+                        <div class="pop-up-view">
+                            <form action="" method="post">
+                        <h3 class="adding-user">Wishlist Details</h3>
+                        <label for="">
+                            Product Name: <input type="text">
+                        </label>
+                        <label for="">
+                            Collection Name: <input type="text">
+                        </label>
+                        <label for="">
+                            Category Name: <input type="text">
+                        </label>
+                        <label for="">
+                            Price: <input type="password" name="" id="">
+                        </label>
+                        <label for="">
+                            Images: <input type="file" src="" alt="">
+                        </label>
+                        <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container bag">
+                    <div class="search-collection">
+                        <h2 class="nav-list-heading">Bag</h2>
+                        <input type="search" name="" id="" placeholder="Search Collection.....">
+                    </div>
+                    <div class="create-collection">
+                        <table class="table">
+                        <thead class="table-heading">
+                            <tr class="table-row">
+                                <th class="table-row-heading">ID</th>
+                                <th class="table-row-heading">Product Name</th>
+                                <th class="table-row-heading">Collection Name</th>
+                                <th class="table-row-heading">Category Name</th>
+                                <th class="table-row-heading">Price</th>
+                                <th class="table-row-heading">Images</th>
+                                <th class="table-row-heading">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <td class="table-data">1</td>
+                            <td class="table-data">Manjot Kaur</td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data">
+                                <button>View</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </td>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="pop-up">
+                        <div class="pop-up-view">
+                            <form action="" method="post">
+                        <h3 class="adding-user">Bag Details</h3>
+                        <label for="">
+                            Product Name: <input type="text">
+                        </label>
+                        <label for="">
+                            Collection Name: <input type="text">
+                        </label>
+                        <label for="">
+                            Category Name: <input type="text">
+                        </label>
+                        <label for="">
+                            Price: <input type="password" name="" id="">
+                        </label>
+                        <label for="">
+                            Images: <input type="file" src="" alt="">
+                        </label>
+                        <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container contact-form">
+                    <div class="search-collection">
+                        <h2 class="nav-list-heading">Contact Details</h2>
+                        <input type="search" name="" id="" placeholder="Search Collection.....">
+                    </div>
+                    <div class="create-collection">
+                        <table class="table">
+                        <thead class="table-heading">
+                            <tr class="table-row">
+                                <th class="table-row-heading">ID</th>
+                                <th class="table-row-heading">Name</th>
+                                <th class="table-row-heading">Number</th>
+                                <th class="table-row-heading">Description</th>
+                                <th class="table-row-heading">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <td class="table-data">1</td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data">
+                                <button>View</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </td>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="pop-up">
+                        <div class="pop-up-view">
+                            <form action="" method="post">
+                        <h3 class="adding-user">Contact Details</h3>
+                        Name:
+                        Number:
+                        Description:
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="">
+        function myFunction(){
+        var popup = document.getElementById("add-item");
+        pop-up.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

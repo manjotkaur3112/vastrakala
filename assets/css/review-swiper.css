@@ -1,0 +1,29 @@
+div.scroll-container {
+    overflow: auto;
+    padding: 32px;
+    display: flex;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+div.scroll-container img {
+  padding: 13px;
+}
+
+.review-content {
+    padding: 0 13px;
+}
+
+.review-conatiner:hover {
+    background-color: #FDFDFD;
+    transform: scale(1.2);
+}
+
+.review-conatiner {
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+
+
